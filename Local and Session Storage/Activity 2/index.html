@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Local Storage 2</h1>
+    <h2>User</h2>
+    <form
+      onsubmit="handleSubmit(event)"
+      action=""
+      style="display: flex; flex-direction: column; width: 200px"
+    >
+      <input type="text" name="name" placeholder="Write Your First Name" />
+      <input type="text" name="email" placeholder="Write Your Email" />
+      <button>Save</button>
+    </form>
+
+    <div id="user" style="display: none">
+      <h3 id="name"></h3>
+      <h3 id="email"></h3>
+    </div>
+
+    <script src="./task3.js"></script>
+    <script src="./task4.js"></script>
+  </body>
+</html>
